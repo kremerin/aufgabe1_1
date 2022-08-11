@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Aufgabe 1_1</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="name">Name*</label>
+            <input type="text" name="vorname" id="vorname" placeholder="Vorname" required class="placeholder">
+            <input type="text" name="name" id="name" placeholder="Nachname" class="placeholder" required>
+        </div>
+        <div>
+            <label for="email">Email*</label>
+            <input type="email" name="mail" id="email" required>
+        </div>
+        <div>
+            <label for="themalist">Thema</label>
+            <select>
+                <option>General</option>
+                <option>Advertise</option>
+                <option>Partnership</option>
+            </select>
+        </div>
+        <div>
+            <label for="nachricht">Nachricht*</label>
+            <textarea name="nachricht" id="nachricht" cols="30" rows="10" required></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Submit" class="btn">
+        </div>
+    </form>
+</body>
+</html>
